@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f11187e1</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="primaryText">#212121</color>
+    <color name="search_view_hint_color">#e3f2fd</color>
+
+    <color name="dateText">#717171</color>
+    <color name="tabIndicator">#ffffffff</color>
+</resources>

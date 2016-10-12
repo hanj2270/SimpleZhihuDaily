@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="thanks_for" >
+        <item>所有内容均源自知乎日报：</item>
+        <item>http://news.at.zhihu.com</item>
+        <item>感谢izzy的爬虫项目对搜索的支持：</item>
+        <item>http://zhihudailypurify.herokuapp.com</item>
+        <item>感谢icons8提供的图标：</item>
+        <item>http：//icon8.com</item>
+        <item>感谢shawn提供的知乎api分析</item>
+        <item>create by nagato hanj</item>
+    </string-array>
+</resources>

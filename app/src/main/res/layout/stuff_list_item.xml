@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView
+    android:id="@+id/stuff_list_card_view"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="6dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginTop="6dp"
+    card_view:cardBackgroundColor="@color/cardview_light_background"
+    card_view:cardCornerRadius="4dp"
+    card_view:cardElevation="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:id="@+id/thumbnail_image"
+            android:src="@drawable/lks_for_blank_url"
+            android:layout_height="95dp"
+            android:layout_width="95dp"
+            android:layout_alignParentLeft="true"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/question_title"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_toLeftOf="@+id/card_share_overflow"
+            android:layout_toRightOf="@id/thumbnail_image"
+            android:paddingLeft="8dp"
+            android:paddingRight="15dp"
+            android:paddingTop="4dp"
+            android:textColor="@color/primaryText"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:text="自我满足。非设计的设计师"
+            />
+
+        <TextView
+            android:id="@+id/daily_title"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_toLeftOf="@+id/card_share_overflow"
+            android:layout_toRightOf="@id/thumbnail_image"
+            android:layout_below="@+id/question_title"
+            android:paddingLeft="8dp"
+            android:paddingRight="15dp"
+            android:paddingTop="4dp"
+            android:textColor="@color/primaryText"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:text="做出一个漂亮的页面是什么样的感受"/>
+
+        <ImageView
+            android:id="@+id/card_share_overflow"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_card_overflow"
+            />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
